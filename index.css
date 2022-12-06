@@ -1,0 +1,104 @@
+.blk1 {
+    background-color: aqua;
+    color:black;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 25px;
+}
+.blk2{
+    background-color: blueviolet;
+    color:white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 25px;
+}
+.blk3{
+    background-color: chocolate;
+    color:darkmagenta;
+    display: flex;
+    flex-direction: column-reverse;
+    margin:25px;
+    
+}
+.blk4{
+    background-color: darkkhaki;
+    color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 25px;
+}
+h3 {
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 1.2em;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    font-family: 'EB Garamond', serif;
+}
+
+.tx {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+.picture {
+    align-self: center;
+    margin: 15px;
+}
+table, tr, td ,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+@media (min-width: 1200px) {
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-sm-6 {
+        width: 50%;
+    }
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .mn {
+        flex-direction: column;
+    }
+}
