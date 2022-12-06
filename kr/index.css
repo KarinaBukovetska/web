@@ -1,47 +1,104 @@
-.block1 {
+.blk1 {
     background-color: aqua;
-    width: 350px;
+    color:black;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0px 0px 25px 0px;
+    margin: 25px;
 }
-.block2{
+.blk2{
     background-color: blueviolet;
-    width: 350px;
+    color:white;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0px 0px 25px 0px;
+    margin: 25px;
 }
-.block3{
+.blk3{
     background-color: chocolate;
-    width: 350px;
+    color:darkmagenta;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0px 0px 25px 0px;
+    margin:25px;
     
 }
-.block4{
+.blk4{
     background-color: darkkhaki;
-    width: 350px;
+    color: black;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0px 0px 25px 0px;
+    margin: 25px;
 }
 h3 {
     background-color: darkblue;
     color: aliceblue;
     font-size: 1.2em;
     width: 200px;
+    font-family: 'Times New Roman', Times, serif;
 }
-@media (min-width: 768px) {
+header {
+    font-family: 'EB Garamond', serif;
+}
+
+.tx {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+.picture {
+    align-self: center;
+    margin: 15px;
+}
+table, tr, td ,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+@media (min-width: 1200px) {
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
-@media (min-width:767px) and (max-width:992px) {
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
-@media (min-width:991px) and (max-width:1200px) {
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-sm-6 {
+        width: 50%;
+    }
+
+    .mn {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
-@media (max-width:1200px) {
 
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .mn {
+        flex-direction: column;
+    }
 }
