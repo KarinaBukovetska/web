@@ -10,7 +10,7 @@
     color:white;
     display: flex;
     flex-direction: column-reverse;
-    margin: 25px;
+    margin:25px;
 }
 .blk3{
     background-color: chocolate;
