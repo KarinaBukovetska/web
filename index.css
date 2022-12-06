@@ -25,7 +25,7 @@
     color: black;
     display: flex;
     flex-direction: column-reverse;
-    margin: 25px;
+    margin:25px;
 }
 h3 {
     background-color: darkblue;
